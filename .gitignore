@@ -6,3 +6,5 @@
 !.ssh
 .ssh/*
 !.ssh/config
+!.aliases
+!.editorconfig
