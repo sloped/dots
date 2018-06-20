@@ -3,3 +3,6 @@
 !.bash_profile
 !.liquidpromptrc
 !.gitconfig
+!.ssh
+.ssh/*
+!.ssh/config
