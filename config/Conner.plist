@@ -1,0 +1,26 @@
+{
+     // Based on: https://mail.google.com/support/bin/answer.py?answer=6594
+    "j" = "selectNextMessageRow:";
+    "k" = "selectPreviousMessageRow:";
+    "J" = "selectNextMailboxRow:";
+    "K" = "selectPreviousMailboxRow:";
+    "l" = "expandThread:";
+    "L" = "collapseThread:";
+     "." = ("clearTags:", "removeTag:", "\\Flagged");
+     "s" = ( "removeTag:", "\\Flagged", "clearTags:","setTag:", "Today", "archive:" );
+     "d" = ( "removeTag:", "\\Flagged", "clearTags:","setTag:", "Week", "archive:" );
+     "f" = ( "removeTag:", "\\Flagged", "clearTags:","setTag:", "Month", "archive:" );
+     "i" = ( "removeTag:", "\\Flagged", "clearTags:","setTag:", "FYI", "archive:" );
+     "a" = "archive:";
+     "`" = "searchAllMessages:";
+     "g" = {
+        "g" = ( "goToMailbox:", "2A315275-F5FA-416C-9CEF-A420407667D7");
+        "s" = ( "goToMailbox:", "FEF1BA11-08CD-4D82-B56C-8E7B2B970626" );
+        "d" = ( "goToMailbox:", "0E4BE102-0DAA-418D-AB83-9F9722B35CD0" );
+        "f" = ("goToMailbox:", "14163F1A-22A8-4543-BCDD-E9903EF10131");
+        "i" = ("goToMailbox:", "A7A6745B-F8E5-46B0-AC49-1F5042A6637D");
+        "G" = ( "goToMailbox:", "INBOX:conner%40clockwork.com@imap.gmail.com");
+        "F" = ( "goToMailbox:", "INBOX:connermccall%40fastmail.com@imap.fastmail.com" );
+     };
+
+}

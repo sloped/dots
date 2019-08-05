@@ -1,3 +1,13 @@
 [user]
 	name = Conner McCall
 	email = conner@clockwork.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[push]
+	default = current
+[alias]
+	test = test:\n
+	remotereset = reset --hard @{u}
