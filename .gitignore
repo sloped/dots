@@ -1,4 +1,5 @@
 *
+!**/.gitignore
 !.gitignore
 !.bash_profile
 !.liquidpromptrc
@@ -9,3 +10,5 @@
 !.aliases
 !.editorconfig
 !.digrc
+!config
+!config/*
