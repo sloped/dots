@@ -11,6 +11,7 @@
      "d" = ( "removeTag:", "\\Flagged", "clearTags:","setTag:", "Week", "archive:" );
      "f" = ( "removeTag:", "\\Flagged", "clearTags:","setTag:", "Month", "archive:" );
      "i" = ( "removeTag:", "\\Flagged", "clearTags:","setTag:", "FYI", "archive:" );
+     "H" = ( "setTag:", "ForwardHubspot");
      "a" = "archive:";
      "`" = "searchAllMessages:";
      "g" = {
