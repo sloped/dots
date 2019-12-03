@@ -1,3 +1,5 @@
+[core]
+	excludesFile=~/config/gitignore
 [user]
 	name = Conner McCall
 	email = conner@clockwork.com
