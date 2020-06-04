@@ -11,7 +11,7 @@ if [ -f '/Users/conner/bin/google-cloud-sdk/path.bash.inc' ]; then . '/Users/con
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/conner/bin/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/conner/bin/google-cloud-sdk/completion.bash.inc'; fi
-HISTFILESIZE=1500
+HISTFILESIZE=15000
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
